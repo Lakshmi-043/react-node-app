@@ -1,0 +1,84 @@
+...// REACT JS //...
+We use 'rfc' to write basic file structure in reactjs
+.jsx file refers to javascript xml file - in this we declare html and also javascript.
+Component is nothing but apart of UI.
+./ - refers to one directory which shows neighbour components.
+../ - refers to access parent directory names.
+render will be declared with <div> tag and it shows output.
+ 
+ >Q1-what is the difference between library and framework???
+
+
+
+
+travel-booking/
+│
+├── public/
+│
+├── src/
+│
+├── assets/
+│   ├── images/
+│   ├── icons/
+│   └── videos/
+│
+├── components/
+│   ├── Navbar.jsx
+│   ├── Footer.jsx
+│   ├── Hero.jsx
+│   ├── SearchBar.jsx
+│   ├── DestinationCard.jsx
+│   ├── PackageCard.jsx
+│   ├── HotelCard.jsx
+│   ├── FlightCard.jsx
+│   ├── BusCard.jsx
+│   ├── TrainCard.jsx
+│   ├── BookingCard.jsx
+│   ├── ReviewCard.jsx
+│   ├── OfferCard.jsx
+│   ├── Filter.jsx
+│   ├── Pagination.jsx
+│   ├── Loader.jsx
+│   ├── Empty.jsx
+│   └── Sidebar.jsx
+│
+├── pages/
+│   ├── Home.jsx
+│   ├── Destinations.jsx
+│   ├── Packages.jsx
+│   ├── PackageDetails.jsx
+│   ├── Hotels.jsx
+│   ├── Flights.jsx
+│   ├── Buses.jsx
+│   ├── Trains.jsx
+│   ├── Booking.jsx
+│   ├── Wishlist.jsx
+│   ├── Profile.jsx
+│   ├── About.jsx
+│   ├── Contact.jsx
+│   ├── Login.jsx
+│   ├── Register.jsx
+│   └── NotFound.jsx
+│
+├── context/
+│   └── TravelContext.jsx
+│
+├── hooks/
+│   └── useFetch.jsx
+│
+├── services/
+│   └── api.js
+│
+├── data/
+│   ├── offers.js
+│   ├── reviews.js
+│   └── categories.js
+│
+├── utils/
+│   ├── helper.js
+│   └── validation.js
+│
+├── App.jsx
+├── main.jsx
+├── App.css
+└── index.css
