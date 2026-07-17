@@ -13,6 +13,7 @@ body{
   color:#222;
   overflow-x:hidden;
   min-height:100vh;
+  transition:background 0.3s ease;
 }
 #root{
   min-height:100vh;
